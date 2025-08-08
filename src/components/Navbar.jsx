@@ -11,6 +11,8 @@ export default function Navbar() {
         <div className="space-x-6 text-sm font-medium">
           <Link to="/" className="hover:text-gray-200 transition duration-200">Home</Link>
           <Link to="/explore" className="hover:text-gray-200 transition duration-200">Explore</Link>
+          <Link to="/profile/create" className="hover:text-gray-200 transition duration-200">Create Profile</Link>
+          <Link to="/profile/view/123" className="hover:text-gray-200 transition duration-200">View Profile</Link> {/* Replace 123 with dynamic user ID */}
           <Link to="/login" className="hover:text-gray-200 transition duration-200">Login</Link>
           <Link to="/register" className="hover:text-gray-200 transition duration-200">Register</Link>
         </div>
@@ -18,4 +20,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
